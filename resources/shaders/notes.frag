@@ -45,7 +45,7 @@ void main(){
 
 	vec3 tinting = vec3(1.0);
 	// vec2 tintingUV = 2.0 * normalizedCoord - 1.0;
-	vec2 tintingUV = vec2(normalizedCoord.x, 1.0 - normalizedCoord.y);
+	vec2 tintingUV = vec2(normalizedCoord.x * 16.0 / 9.0, normalizedCoord.y);
 
 	// Preserve screen pixel density, corrected for aspect ratio (on X so that preserving scrolling speed is easier).
 	vec2 aspectRatio = vec2(inverseScreenSize.y / inverseScreenSize.x, 1.0);

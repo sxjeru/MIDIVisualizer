@@ -40,7 +40,11 @@ jobs:
         shell: bash
         run: cmake --build build/ --config Release
 
-
-
+      - name: Upload
+        uses: actions/upload-artifact@v2
+        with:
+          name: MIDIVisualizer
+          path: D:/a/MIDIVisualizer/build/Release/MIDIVisualizer.exe
+  
 
 

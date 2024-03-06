@@ -1,5 +1,11 @@
 # MIDI Visualizer
 
+## 改动了什么
+
+原本钢琴块的背景设置为平铺模式，且中心点在屏幕中央，这实际无法满足“透过钢琴块看到一幅完整背景图”的目的。
+
+通过少许改动达成了目的，限制背景图与程序窗口的尺寸比均为 16:9 。
+
 ![CI](https://github.com/kosua20/MIDIVisualizer/workflows/CI/badge.svg?branch=master)
 
 A small MIDI visualizer, written in C++/OpenGL.

@@ -6,6 +6,8 @@
 
 通过少许改动达成了目的，限制背景图与程序窗口的尺寸比均为 16:9 。
 
+---
+
 ![CI](https://github.com/kosua20/MIDIVisualizer/workflows/CI/badge.svg?branch=master)
 
 A small MIDI visualizer, written in C++/OpenGL.
